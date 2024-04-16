@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+.app{
+  font-size: 14px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btn{
+  font-size: 14px !important;
+}
+.darkBg{
+  background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.modelOverview{
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.model{
+  width: 450px;
+  height: 540px;
+  /* padding: 20px 15px; */
+  background: #fefefe;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textblack{
+  color: black;
+}
+.form-control{
+  font-size: 14px;
+}
+
+.borderTop{
+  border-top: 1px solid #a19d9d;
+}
+
+.borderBottom{
+  border-bottom: 1px solid #a19d9d;
+}
+.overflowX{
+  overflow-y: auto;
+}
+.modelConfirm{
+  width: 450px;
+    /* padding: 20px 15px; */
+    background: #fefefe;
+    color: white;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 992px) {
+  .tblUl{width: 880px !important;}  
+}
